@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "chisel-1.21.1",
+      "name": "고래상사 팬 치즐 건축 콘테스트",
+      "description": "Minecraft 1.21.1 (Fabric v0.18.4)",
+      "icon": "https://github.com/mchdistro/ubw/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "준우.온라인.한국:31897",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/net/fabricmc/fabric-loader/0.18.4/fabric-loader-0.18.4.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.18.4",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "4482929ec2b32e28ead2f26eb7721e04",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/versions/1.21.1-fabric-0.18.4/1.21.1-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1505269,
+                "MD5": "d27dcb910788a0bd4bea72942a714093",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://github.com/mchdistro/ubw/raw/main/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.2.0+mc1.21.1@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11165,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/fabricmods/required/blurserveraddress-fabric-1.2.0+mc1.21.1.jar",
+            "MD5": "31dfd9ed8f516f519c0e05b6265aaf3c"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits:chiselsandbits:21.1.33@jar",
+          "name": "Chisels & Bits",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2788171,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/fabricmods/required/chisels-and-bits-fabric-21.1.33.jar",
+            "MD5": "cb16b2acb4b1a47dbc028d85a0618d4e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.8+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425441,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/fabricmods/required/fabric-api-0.116.8+1.21.1.jar",
+            "MD5": "54d845f0ec97490a5e1b0dc4201d7c01"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/fabricmods/required/iris-fabric-1.8.8+mc1.21.1.jar",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+          }
+        },
+        {
+          "id": "org.karn:koreanchat:1.5@jar",
+          "name": "KoreanChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 562924,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/fabricmods/required/KoreanChat-1.5.jar",
+            "MD5": "50afa2d193e7f940d7e80e4a63a9a3b9"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297761,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/fabricmods/required/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "MD5": "aa37ba0048a1af6b554b137088cad484"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 312,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/files/config/iris.properties",
+            "MD5": "2fb287c07c7c9a64553e5057a9b3d9f6",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5306,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip.txt",
+          "name": "ComplementaryUnbound_r5.5.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 219,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt",
+            "MD5": "5e3a17c5f2f6d39488c0f0006456440b",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}

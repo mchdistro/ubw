@@ -1,0 +1,41 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/ubw/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "고래상사 팬 치즐 건축 콘테스트",
+    "description": "Minecraft 1.21.1 (Fabric v0.18.4)",
+    "icon": "https://github.com/mchdistro/ubw/raw/main/server-icon.png",
+    "address": "준우.온라인.한국:31897",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true,
+    "javaOptions": {
+      "supported": "=>21",
+      "suggestedMajor": 21,
+      "platformOptions": [
+        {
+          "platform": "win32",
+          "architecture": "x64",
+          "distribution": "TEMURIN"
+        }
+      ],
+      "ram": {
+        "minimum": 4096,
+        "recommended": 8192
+      }
+    }
+  },
+  "fabric": {
+    "version": "0.18.4"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": ["options.txt"]
+    }
+  ]
+}
