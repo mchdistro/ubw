@@ -212,6 +212,17 @@
           }
         },
         {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://github.com/mchdistro/ubw/raw/main/servers/chisel-1.21.1/files/servers.dat",
+            "MD5": "1fa51b7c6da523801fe30a19543f5003",
+            "path": "servers.dat"
+          }
+        },
+        {
           "id": "ComplementaryUnbound_r5.5.1.zip",
           "name": "ComplementaryUnbound_r5.5.1.zip",
           "type": "File",
